@@ -1,0 +1,33 @@
+@import "reset.css";
+
+#main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#board-container {
+    display: grid;
+    width: 50vw;
+    height: 50vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+#board-container p{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 5% 0 5% 0;
+}
